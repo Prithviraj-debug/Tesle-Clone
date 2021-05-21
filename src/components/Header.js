@@ -129,6 +129,10 @@ const RightMenu = styled.div`
     padding: 0 20px;
     flex: nowrap;
   }
+
+  @media (max-width: 430px) {
+    font-size: 12px;
+  }
 `;
 
 const CustomMenu = styled(MenuIcon)`

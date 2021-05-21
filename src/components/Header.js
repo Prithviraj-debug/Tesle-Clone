@@ -21,6 +21,8 @@ function Header() {
               {car}
             </a>
           ))}
+        <a href="#">Solar Roof</a>
+        <a href="#">Solar Panels</a>
       </Menu>
       <RightMenu>
         <a href="#">Shop</a>
@@ -61,27 +63,6 @@ function Header() {
         <li>
           <a href="#">Charging</a>
         </li>
-        <li>
-          <a href="#">Powerwall</a>
-        </li>
-        <li>
-          <a href="#">Commercial Energy</a>
-        </li>
-        <li>
-          <a href="#">Utilities</a>
-        </li>
-        <li>
-          <a href="#">Test Drive</a>
-        </li>
-        <li>
-          <a href="#">Find Us</a>
-        </li>
-        <li>
-          <a href="#">Support</a>
-        </li>
-        <li>
-          <a href="#">Phaltan</a>
-        </li>
       </BurgerNav>
     </Container>
   );
@@ -113,6 +94,7 @@ const Menu = styled.div`
     text-transform: uppercase;
     margin-right: 10px;
     flex: nowrap;
+    font-size: 14px;
   }
 
   @media (max-width: 778px) {
@@ -128,6 +110,7 @@ const RightMenu = styled.div`
     text-transform: uppercase;
     padding: 0 20px;
     flex: nowrap;
+    font-size: 14px;
   }
 
   @media (max-width: 430px) {
